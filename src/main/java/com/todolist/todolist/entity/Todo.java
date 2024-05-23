@@ -1,4 +1,4 @@
-package entity;
+package com.todolist.todolist.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,13 +1,13 @@
-package controller;
+package com.todolist.todolist.controller;
 
-import entity.Todo;
+import com.todolist.todolist.entity.Todo;
 import org.springframework.web.bind.annotation.*;
-import service.TodoService;
+import com.todolist.todolist.service.TodoService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/todos")
+@RequestMapping("/v1/todos")
 public class TodoController {
     private final TodoService todoService;
 

@@ -1,6 +1,6 @@
-package service;
+package com.todolist.todolist.service;
 
-import entity.Todo;
+import com.todolist.todolist.entity.Todo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

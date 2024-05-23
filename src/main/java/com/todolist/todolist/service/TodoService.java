@@ -1,6 +1,6 @@
-package service;
+package com.todolist.todolist.service;
 
-import entity.Todo;
+import com.todolist.todolist.entity.Todo;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
